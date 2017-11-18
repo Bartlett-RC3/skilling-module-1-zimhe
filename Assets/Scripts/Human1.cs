@@ -14,6 +14,7 @@ public class Human1
     public bool hungry;
     public float energy;
 
+
     // Constructor
     public Human1(int _age, float _height, float _weight, bool _gender, string _firstName, string _familyName)
     {
@@ -21,7 +22,7 @@ public class Human1
         height = _height;
         generder = _gender;
         firstName = _firstName;
-        firstName = _familyName;
+        familyName  = _familyName;
         hungry = true;
         energy = 100;
     }

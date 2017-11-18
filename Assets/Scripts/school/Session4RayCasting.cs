@@ -22,7 +22,7 @@ public class Session4RayCasting : MonoBehaviour {
         if (Physics.Raycast (transform.position ,castedRayDirection,  out objectInFront))
         {
             string objectInFrontName = objectInFront.transform.name;
-            Debug.Log("There is an object in front of me! It's name is: "+ objectInFrontName);
+            Debug.Log("There is an object in front of me! It's Name is: "+ objectInFrontName);
             Destroy(objectInFront.transform.gameObject);
         }
         // Move the cube up
