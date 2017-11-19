@@ -138,18 +138,19 @@ public class Session3_Homework : MonoBehaviour
 	    {
 	        CubeMaterial.color = Color.black;
 	    }
-	    else
-	    {
-	        CubeMaterial.color = Color.red;
-	    }
+	  
 
-	    if (Input.GetKey( KeyCode.DownArrow) )
+	    else if (Input.GetKey( KeyCode.DownArrow) )
         {
             CubeMaterial.color = Color.blue;
         }
-	    if (Input.GetKey( KeyCode.UpArrow ))
+	    else if (Input.GetKey( KeyCode.UpArrow ))
 	    {
 	        CubeMaterial.color = Color.green;
+	    }
+	    else
+	    {
+	        CubeMaterial.color = Color.red;
 	    }
     }
 
