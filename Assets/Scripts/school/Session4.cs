@@ -30,7 +30,7 @@ public class Session4 : MonoBehaviour {
    IEnumerator Start()
     {
         yield return StartCoroutine(DropColumns() );
-        Debug.Log("Done" + Time.time);
+        
     }
 
     

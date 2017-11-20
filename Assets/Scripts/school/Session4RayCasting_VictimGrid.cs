@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Session4RayCasting : MonoBehaviour {
+public class Session4RayCasting1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

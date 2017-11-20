@@ -27,15 +27,14 @@ public class Session3_Homework : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         //for (int i = 0; i <= cubeNumber; i++)
-        {
-            Vector3 columnPosition = new Vector3(Random.Range(ScreenX [0], ScreenX [1]), Random.Range(ScreenY [0], ScreenY [1]), 30);
+           Vector3 columnPosition = new Vector3(Random.Range(ScreenX [0], ScreenX [1]), Random.Range(ScreenY [0], ScreenY [1]), 30);
             Quaternion columnRotation = new Quaternion(0,0,0,0);
 
             GameObject newCube = Instantiate(CuteCube1, columnPosition,columnRotation );
 
            // yield return new WaitForSeconds(3f);
             //newCube .name = "newCube" + i;
-        }
+        
 
     }
     IEnumerator Start()
@@ -134,7 +133,7 @@ public class Session3_Homework : MonoBehaviour
 	        StopAllCoroutines();
 	    }
 	    //Color changing.
-	    if (Input.GetKey(KeyCode.Space) /*&& CubeMaterial.color == Color.red*/)
+	    if (Input.GetKey(KeyCode.Space) )
 	    {
 	        CubeMaterial.color = Color.black;
 	    }
